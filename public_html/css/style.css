@@ -1,0 +1,753 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-Feb-2017, 13:20:55
+    Author     : Kate
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    
+}
+/*main side*/
+    /*section heder + nav*/
+.header {
+    display: -webkit-flex;
+    display:         flex;
+    text-decoration: none;
+    /*background-color: #380101; /*#5e0202*/
+}
+.header header a {
+    text-decoration: none;
+    color: white;
+}
+header h1{
+    display: -webkit-flex;
+    display:         flex;
+    justify-content: center;
+    margin-left: 15%;
+}
+#nav-main {
+    width: 100%;
+}
+.nav-list ul li{
+    display: -webkit-flex;
+    display:         flex;
+    flex-flow: row wrap;
+    list-style: none;
+    margin-bottom: 5px;
+}
+.nav-list ul{
+    display: -webkit-flex;
+    display:         flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+.nav-list ul li a{
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    display: -webkit-flex;
+    display:         flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+#nav-main {
+    /*position: fixed;*/
+    /*margin: 0 auto;*/
+    display: flex;
+    justify-content: flex-end;
+    /*background-color: black;*/
+    /*position: absolute;*/
+}
+
+.nav-list ul li a:hover{
+    color: #ffd700;
+}
+
+    /*content-main*/
+.content-main {
+    display: -webkit-flex;
+    display:         flex;
+    flex-flow: row wrap;
+    background: url('../images/motorcycle2.png') no-repeat center center;
+    background-size: cover;
+}
+
+#nav-second {
+    /*width: 25%;*/
+    /*width: 300px;*/
+    /*padding-top: 50px;*/
+    list-style-type: none;
+}
+/*#nav-second h3, .square  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}*/
+
+#nav-second h3 {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+        margin-left: 20px;
+}
+.nav-list-second {
+    margin-left: -20px;
+}
+.nav-list-second h3 {
+    display: -webkit-flex;
+    display:         flex;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.nav-list-second ul, ul li {
+    list-style: none;
+    padding-top: 5px;
+}
+.nav-list-second ul, ul li a{
+    color: black;
+    text-decoration: none;
+}
+.nav-list-second ul, ul li a:hover {
+    color: white;
+}
+.nav-list-second ul {
+    margin-left: 0;
+    margin-right: 0;
+
+}
+.nav-list-second {
+    margin-right: 20%;
+    width: 200px;
+}
+/*.square {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 20px;
+}*/
+.square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/*.line:hover{
+    background-color: #ffd700;
+}*/
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.line {
+    width: 30px;
+    height: 2px;
+    background-color: whitesmoke;
+    border-radius: 30%;
+    margin: 3px 0;
+}
+/*.line:hover {
+    background-color: #ffd700;
+}*/
+
+#side-menu > a {
+        position: absolute;
+        margin-left: 15px;
+        text-decoration: none;
+        color: white;
+}
+
+.slogan h1{
+    /*position: relative;*/
+    margin-right: auto;
+    margin-left: auto;
+    display: -webkit-flex;
+    display:         flex;
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 40px;
+    flex-wrap: wrap;
+}
+.slogan {
+    display: -webkit-flex;
+    display:         flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%
+}
+
+.title {
+    background-color: black ;/*#380101*/
+    padding: 0px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 15px;
+}
+.title span {
+    padding-bottom: 20px;
+
+}
+.part {
+    /*background-color: #6E0D25 ;*/
+    background-color: #a8a4a4;
+    padding-left: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 0px 0px 5px 5px;
+}
+ul.part li:last-child {
+    padding-bottom: 10px;
+}
+
+.part ul li:hover {
+    /*border-radius: 5px;*/
+    background-color: white;
+}
+
+/*footer*/
+
+footer {
+    /*background-color: rgba(0, 0, 0, 0.6); /*#380101*/
+}
+.contact {
+    margin-left: 5%;
+    margin-right: 5%;
+/*    padding-top: 20px;
+    padding-bottom: 20px;*/
+    display: -webkit-flex;
+    display:         flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.contact-phone-mailto a {
+    text-decoration: none;
+    color: white;
+}
+
+address {
+    text-decoration: none;
+}
+
+.copy {
+    margin: 0 auto;
+}
+
+    /*main side*/
+
+@media screen and (max-width: 980px){
+    .slogan {
+        margin-left: 50px;
+    }
+
+}
+@media screen and (max-width: 648px){
+    .slogan {
+        margin: 0 auto;
+        width: 100%;
+    }
+    #nav-second {
+        width: 100%;
+        margin-left: -20px;
+    }
+    .nav-list-second {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    #nav-main {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 548px){
+    /*.header {
+        flex-direction: column;
+    }
+    header h1 {
+        display: -webkit-flex;
+        display: flex;
+        justify-content: center;
+        margin-left:0;
+    }*/
+    /*.nav-list ul {
+        margin-left: -40px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+        margin-top: 0;
+    }*/
+   /* .nav-list ul li {
+        padding: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-list ul li:hover {
+        background-color: grey;
+    }*/
+}
+
+@media screen and (max-width: 400px){
+    #nav-second {
+        width: 100%;
+        margin-left: -20px;
+    }
+    .nav-list-second {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 400px){
+    #nav-second {
+        /*margin: 0 auto;*/
+        width: 100%;
+    }
+    .nav-list-second {
+        width: 100%;
+    }
+    .slogan h1 {
+        padding: 2%;
+        background-color: none;
+    }
+}
+
+/*Usługi*/
+
+.services-img {
+    background: url('../images/motorcycle.jpg') no-repeat center center;
+    color: black;
+    display: -webkit-flex;
+    display:         flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    margin-bottom: 0;
+}
+
+.services-img h1 {
+    display: -webkit-flex;
+    display:         flex;
+    justify-content: center;
+    /*height: 200px;*/
+    color: white;
+    /*bottom: -10px;*/
+    /*vertical-align: middle;*/
+    font-size: 2em;
+}
+
+.services-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+.price-list {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+   /* margin-top: -20px;*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: black;
+}
+
+table {
+    margin: 0 auto;
+    text-align: left
+}
+
+.price-list table thead {
+    text-align: center;
+}
+.price-list table td {
+    padding: 5px;
+}
+.price-list h2 {
+    margin-top: 0;
+}
+
+.service h2, .service p {
+    float: left;
+}
+.service {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+.services {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+.service img {
+    width: 20%;
+    height: 20%;
+    margin-top: 20px;
+}
+
+.services h2 {
+    display: flex;
+    justify-content: center;
+}
+.services img {
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+@media screen and (min-width: 980px){
+    .services {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media screen and (max-width: 750px){
+    .services {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .service {
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+    .services img {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 460px){
+    .service {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .services img {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+}
+
+/*zimowanie serwis*/
+
+.one-text {
+    margin: 0 auto;
+    text-align: justify;
+}
+.one-text .service {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+}
+.background {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 750px){
+    .one-text {
+           width: 60%;
+    }
+}
+
+
+
+/*boczne menmu*/
+
+/*#side-menu {
+                    display: -webkit-flex;
+    display:         flex;
+    list-style-type: none;
+}*/
+#side-menu {
+    display: -webkit-flex;
+    display:         flex;
+    flex-flow: row wrap;
+}
+
+@media screen and (min-width: 650px){
+    #side-menu{
+        display: -webkit-flex;
+        display:         flex;
+        list-style-type: none;
+        /*flex-flow: column;*/
+        flex-flow: row nowrap;
+    }
+}
+    /*Czesci*/
+
+.content-gallery {
+      /* display: -webkit-flex;
+    display:         flex;
+    flex-flow: row wrap; */
+    display: -webkit-flex;
+    display:         flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.photo-moto img {
+    /*width: 200px;
+                          display: -webkit-flex;
+    display:         flex;*/
+}
+div.gallery {
+    margin: 15px;
+    border: 1px solid #ccc;
+    /*float: left;*/
+    width: 180px;
+
+
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.head {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+
+}
+
+
+ #menu-button {display: none;}
+        /*#menu {list-style: none; float: left; width: 100%;}
+        #menu li {float: left; display: block; padding: 0 1%;}
+        #menu li a {text-decoration: none; color: #222;}*/
+
+        @media screen and (max-width: 648px) {
+            #menu-button {
+                display: block;
+                font-size: 24px;
+                background: none;
+                color: white;
+                border: none;
+                position: fixed;
+                right: 2%;
+                top: 20px;
+
+            }
+
+            .nav-list-div {
+                display: block;
+                margin-top: 55px;
+                background-color: black;
+                /*position: absolute;*/
+                width: 100%;
+            }
+
+            .nav-list ul {
+                margin-left: -120px;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 8px;
+                margin-top: 50px;
+                position: relative;
+                width: 100%;
+                padding-left: -200px !important;
+            }
+            #menu-button:hover {
+                color: #ffd700;
+                border: none!important;
+            }
+            #menu-button:focus {
+                color: #ffd700;
+                border: none!important;
+            }
+            #menu-button:visited {
+                color: #ffd700;
+                border: none!important;
+            }
+            #menu-button:active {
+                color: #ffd700;
+                border: none!important;
+            }
+            .nav-list ul li:hover {
+                color: #ffd700;
+            }
+        }
+
+/*
+@media screen and (min-width: 500px) {
+    .nav-list {
+        display: flex!important;
+    }
+}*/
+
+/*Contact*/
+
+/** {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 100% normal Arial, Helvetica, sans-serif;
+    background: #161712;
+}
+form, input, select, textarea {
+    margin:0;
+    padding:0;
+    color:#ffffff;
+}*/
+
+div.form-box {
+    margin:0 auto;
+    width:300px;
+    background:#222222;
+    position:relative;
+    top:50px;
+    border:1px solid #262626;
+}
+
+div.form-box h1 {
+    color:#ffffff;
+    font-size:18px;
+    text-align: center;
+    text-transform:uppercase;
+    padding:5px 0 5px 5px;
+    border-bottom:1px solid #161712;
+    border-top:1px solid #161712;
+}
+
+div.form-box label {
+    width:100%;
+    /*display: block;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:#1C1C1C;
+    border-top:1px solid #262626;
+    border-bottom:1px solid #161712;
+    padding:10px 0 10px 0;
+}
+
+div.form-box label span {
+    display: block;
+    color:#bbbbbb;
+    font-size:14px;
+    float:left;
+    width:100px;
+    padding:5px 20px 0 0;
+    margin-left: -100px;
+}
+
+div.form-box .wpis {
+    padding:10px 10px;
+    width:200px;
+    background:#262626;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left:1px double #333333;
+    border-right:1px double #333333;
+}
+
+div.form-box .message {
+    padding:7px 7px;
+    width:207px;
+    background:#262626;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left:1px double #333333;
+    border-right:1px double #333333;
+    overflow:hidden;
+    height:150px;
+}
+
+div.form-box .message:active,
+div.form-box .message:hover,
+div.form-box .message:focus,
+div.form-box .wpis:active,
+div.form-box .wpis:hover,
+div.form-box .wpis:focus {
+    background-color: rgb(250, 255, 189) !important;
+}
+div.form-box .submit	{
+    margin:0 0 10px 0;
+    padding:10px 15px;
+    background: #ce0e0e;
+    border:0px;
+    position: relative;
+    top:10px;
+    width:100px;
+    /*border-bottom: 1px double #660000;
+    border-top: 1px double #660000;
+    border-left:1px double #FF0033;
+    border-right:1px double #FF0033;*/
+}
+div.form-box .submit:hover{
+    background-color: #660000;
+}
+
+
+
+
+/*contact*/
+#form-map {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #080807;
+
+}
+form{
+    margin-bottom: 100px;
+}
+
+/*input:invalid {
+    border: 2px solid red;
+}*/
+
+
+input.filled:valid {
+    background: green;
+}
+input:invalid {
+    background: red;
+}
+input.filled:valid + label:after {
+    content: '✓';
+    display: inline-block;
+    margin-left: .25rem;
+}
+input:invalid + label:after {
+    content: 'x';
+    display: inline-block;
+    margin-left: .25rem;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="pl">
+    <head>
+        <title>Uslugi</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/menu.js"></script>
+        <script src="js/contact-form.js"></script>
+
+         
+    </head>
+    <body>
+         <section>
+            <div class="header">
+        <header>
+            <h1>MOTO_MOTO</h1>
+        </header>
+            <nav id="nav-main">
+                <button id="menu-button">MENU</button>
+                <div class="nav-list">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="uslugi.html">Usługi</a></li>
+                    <li><a href="serwis.html">Serwis</a></li>
+                    <li><a href="zimowanie.html">Zimowanie</a></li>
+                    <li><a href="cennik.html">Cennik</a></li>
+                    <li><a href="index.html">Części</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul> 
+            </div>
+        </nav>
+            </div>
+        </section>
+
+         <section id="form-map">
+                 <form action="send.php" method="post" id="contactform">
+                     <div class="form-box">
+                         <h1>Formularz kontaktowy :</h1>
+                         <label>
+                             <span>Imię</span>
+                             <input type="text" class="wpis" name="name" id="name" required/>
+                         </label>
+                         <label>
+                             <span>E-mail :</span>
+                             <input type="text" class="wpis" name="email" id="email" pattern="^[0-9a-zA-Z_.-]+@[0-9a-zA-Z.-]+\.[a-zA-Z]{2,3}$" required/>
+                         </label>
+                         <label>
+                             <span>Wiadomość :</span>
+                             <textarea class="message" name="message" id="message" required></textarea>
+                             <input type="submit" class="submit" value="Wyślj" />
+                         </label>
+                     </div>
+                 </form>
+
+             <section id="map">
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2378.578750098256!2d23.484211315567357!3d53.40447497999123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e00977ab8e3b5d%3A0xab21975e8737f8b9!2zMyBNYWphLCAxNi0xMDAgU29rw7PFgmth!5e0!3m2!1spl!2spl!4v1532623084132" width="350" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+             </section>
+         </section>
+
+         <footer>
+             <div class="contact">
+                 <div class="contact-phone-mailto">
+                     <p>Kontakt:</p>
+                     <p class="phonenumber"><a href="tel.+48 507XXX334">+48 507XXX334</a><br />
+                         <a href="mailto:k.kowalewska89@wp.pl">k.kowalewska89@wp.pl</a></p>
+                 </div>
+                 <div class="copy">
+                     <p>Copywrityng &copy; Moto_Moto</p>
+                 </div>
+                 <div class="contact-adress">
+                     <p>Adres</p>
+                     <adress>ulica nr domu <br />Miasto</adress>
+                 </div>
+             </div>
+         </footer>
+        
+    </body>
+</html>
+
